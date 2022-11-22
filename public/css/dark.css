@@ -1109,16 +1109,18 @@ body {
   margin: 0 auto 80px; }
   .sec-head h6 {
     color: #75dab4;
-    font-weight: 300;
-    font-size: 17px;
+    font-family: Pretendard;
+    font-size: 15px;
+    line-height: 3.33;
     text-transform: uppercase;
-    letter-spacing: 14px;
+    letter-spacing: 1.5px;
     margin-bottom: 5px; }
   .sec-head h3 {
     font-size: 80px;
-    font-weight: 700;
+    font-weight: bold;
+    font-family: Pretendard;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    line-height: 0.63;
     text-shadow: 0 8px rgba(255, 255, 255, 0.05); }
   .sec-head .tbg {
     position: absolute;
@@ -1126,8 +1128,10 @@ body {
     left: 0;
     width: 100%;
     text-align: center;
-    font-size: 10vw;
-    font-weight: 700;
+    font-size: 190px;
+    font-weight: bold;
+    font-family: Pretendard;
+    line-height: 0.26;
     color: transparent;
     -webkit-text-stroke: 1px rgba(255, 255, 255, 0.1);
     opacity: .3; }
@@ -1136,7 +1140,12 @@ body {
     margin-bottom: 0; }
     .sec-head.tr-head .tbg {
       text-align: left; }
-
+.solutionText {
+  font-size: 16px;
+  margin-top : 24px;
+  font-family: Pretendard;
+  line-height: 2;
+}
 .sub-title {
   position: relative;
   padding-left: 20px;

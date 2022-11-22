@@ -13,14 +13,14 @@ const Services4 = ({ withBG, withPadding, halfBG, withOutTitle }) => {
         {!withOutTitle && (
           <div className="sec-head custom-font text-center">
             <h6 className="wow fadeIn" data-wow-delay=".5s">
-              Best Features
+            고객사의 요구를듣고, 기획하고, 개발하고, 유지하며 지원합니다.
             </h6>
             <Split>
               <h3 className="wow words chars splitting" data-splitting>
-                Services.
+              Business area.
               </h3>
             </Split>
-            <span className="tbg">Services</span>
+            <span className="tbg">BUSINESS AREA</span>
           </div>
         )}
         <div className="row">

@@ -1487,9 +1487,9 @@ pre code {
 
   .col-lg-4 {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
+    -ms-flex: 0 0 22.222222%;
+    flex: 0 0 22.222222%;
+    max-width: 22.222222%;
   }
 
   .col-lg-5 {
@@ -2414,6 +2414,7 @@ select.form-control-lg:not([size]):not([multiple]) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  justify-content: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-right: -5px;

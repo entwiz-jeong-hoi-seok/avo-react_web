@@ -51,14 +51,14 @@ class Testimonials1 extends React.Component {
         <div className="container position-re">
           <div className="sec-head custom-font text-center">
             <h6 className="wow fadeIn" data-wow-delay=".5s">
-              What Peapole Says?
+            온라인 행사를 통한 집객 극대화, 메타버스 솔수션이면 가능합니다.
             </h6>
             <Split>
               <h3 className="wow words chars splitting" data-splitting>
-                Testimonials.
+              MEATAXFAIR™.
               </h3>
             </Split>
-            <span className="tbg">Testimonials</span>
+            <span className="tbg">MEATAXFAIR™.</span>
           </div>
           <div
             className="row justify-content-center wow fadeInUp"
