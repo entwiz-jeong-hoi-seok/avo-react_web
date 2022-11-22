@@ -85,14 +85,14 @@ const IntroWithSlider1 = ({ sliderRef }) => {
               <SwiperSlide key={slide.id} className="swiper-slide">
                 <div
                   className="bg-img valign"
-                  style={{ backgroundImage: `url(${slide.image})` }}
+                  style={{ backgroundImage: `url(${slide.image})`}}
                   data-overlay-dark="6"
                 >
                   <div className="container">
                     <div className="row justify-content-center">
                       <div className="col-lg-7 col-md-9">
                         <div className="caption center">
-                          {/* <Split> */}
+                          <Split>
                             <h1 className="words chars splitting">
                               {typeof slide.title === "object" ? (
                                 <>
@@ -103,7 +103,7 @@ const IntroWithSlider1 = ({ sliderRef }) => {
                                 slide.title
                               )}
                             </h1>
-                          {/* </Split> */}
+                          </Split>
                           {
                             typeof slide.content === 'object' && <p>{slide.content.first}<br/>{slide.content.second}</p>
                           }

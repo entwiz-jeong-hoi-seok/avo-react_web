@@ -3044,6 +3044,7 @@ header.simpl {
     .services .step-item h6 {
       margin-bottom: 20px; }
   .services .item {
+    height: 100%;
     text-align: center;
     padding: 60px;
     background: #151921;
