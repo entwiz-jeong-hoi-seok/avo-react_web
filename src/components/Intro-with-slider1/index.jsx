@@ -37,7 +37,7 @@ const IntroWithSlider1 = ({ sliderRef }) => {
           <Swiper
             speed={1000}
             autoplay={{
-              delay: 1000,
+              delay: 5000,
               disableOnInteraction: true,
             }}
             parallax={true}
@@ -104,12 +104,14 @@ const IntroWithSlider1 = ({ sliderRef }) => {
                               )}
                             </h1>
                           </Split>
-                          {slide?.content && <p>{slide.content}</p>}
-                          <Link href="/about/about-dark">
+                          {
+                            typeof slide.content === 'object' && <p>{slide.content.first}<br/>{slide.content.second}</p>
+                          }
+                          {/* <Link href="/about/about-dark">
                             <a className="btn-curve btn-lit mt-30">
                               <span>Look More</span>
                             </a>
-                          </Link>
+                          </Link> */}
                         </div>
                       </div>
                     </div>
