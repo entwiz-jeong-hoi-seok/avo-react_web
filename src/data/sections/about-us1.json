@@ -1,8 +1,8 @@
 {
   "id": 1,
-  "image1": "/img/intro/1.jpg",
-  "image2": "/img/intro/3.jpg",
-  "image3": "/img/intro/2.jpg",
+  "image1": "/img/dark4/about_1.jpg",
+  "image2": "/img/dark4/about_2.jpg",
+  "image3": "/img/dark4/about_3.jpg",
   "smallTitle": "About Us",
   "title": { "first": "설명만 할 수 있으면", "second": "현실로 만들 수 있습니다" },
   "content": "엔트위즈소프트는 소규모 홈페이지 제작부터 국가 또는 기업의 요구사항에 맞춘 전문적인 소프트웨어까지 개발할 수 있는 전문 소프트웨어 개발사입니다. 엔트위즈는 다양한 분야의 전문가가 포진되어 한발 앞선 위치에서 보다 높은 품질의 솔루션을 만들어내고자 끊임없는 연구와 개발을 거듭하고 있습니다.",
