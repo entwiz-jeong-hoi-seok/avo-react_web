@@ -140,7 +140,7 @@ const IntroWithSlider1 = ({ sliderRef }) => {
           className="swiper-pagination top botm custom-font"
         ></div>
 
-        <div className="social-icon">
+        {/* <div className="social-icon">
           <a href="#0">
             <i className="fab fa-facebook-f"></i>
           </a>
@@ -153,7 +153,7 @@ const IntroWithSlider1 = ({ sliderRef }) => {
           <a href="#0">
             <i className="fab fa-pinterest-p"></i>
           </a>
-        </div>
+        </div> */}
       </div>
     </header>
   );
