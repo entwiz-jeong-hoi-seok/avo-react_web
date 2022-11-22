@@ -5,13 +5,16 @@ import axios from 'axios';
 
 const ContactSection = () => {
   const messageRef = React.useRef(null);
-  function validateEmail(value) {
+  function validatePhone(value) {
+    console.log(!/^[0-9]{2,3}[0-9]{3,4}[0-9]{4}/.test(value))
     let error;
     if (!value) {
       error = "Required";
-    } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(value)) {
-      error = "Invalid email address";
+    } else if (!/^01([0|1|6|7|8|9])-?([0-9]{3,4})-?([0-9]{4})$/.test(value))
+    {
+      error = "Invalid phone";
     }
+    console.log(error)
     return error;
   }
   const sendMessage = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -35,19 +38,29 @@ const ContactSection = () => {
               <Formik
                 initialValues={{
                   name: "",
-                  email: "",
+                  phone: "",
                   message: "",
                 }}
                 onSubmit={async (values) => {
                   await sendMessage(500);
                   // alert(JSON.stringify(values, null, 2));
                   // show message
-                  const formData = new FormData();
+                  // const formData = new FormData();
 
-                  formData.append('name', values.name);
-                  formData.append('email', values.email);
-                  formData.append('message', values.message);
-                  const res = await axios.post('/contact.php', formData);
+                  // formData.append('name', values.name);
+                  // formData.append('phone', values.phone);
+                  // formData.append('message', values.message);
+                  
+                  let jsonData = {};
+                  jsonData.body = '홈페이지 문의 입니다.';
+                  jsonData.connectInfo = [{title:`이름 : ${values.name} 전화번호 : ${values.phone}`,description:`메시지 : ${values.message}`}];
+                  const res = await axios.post('https://wh.jandi.com/connect-api/webhook/26153223/805898e6e99db4d99a7644edf238cab6', jsonData, {
+                  headers: {
+                    "Accept": "application/vnd.tosslab.jandi-v2+json",
+                    "Content-Type": "application/json"
+                  }
+                  
+                  });
 
                   if (!res) return;
 
@@ -55,7 +68,7 @@ const ContactSection = () => {
                     "Your Message has been successfully sent. I will contact you soon.";
                   // Reset the values
                   values.name = "";
-                  values.email = "";
+                  values.phone = "";
                   values.message = "";
                   // clear message
                   setTimeout(() => {
@@ -83,15 +96,15 @@ const ContactSection = () => {
                         <div className="col-lg-6">
                           <div className="form-group">
                             <Field
-                              id="form_email"
-                              type="email"
-                              name="email"
-                              validate={validateEmail}
-                              placeholder="Email"
+                              id="form_phone"
+                              type="phone"
+                              name="phone"
+                              validate={validatePhone}
+                              placeholder="Phone"
                               required="required"
                             />
-                            {errors.email && touched.email && (
-                              <div>{errors.email}</div>
+                            {errors.phone && touched.phone && (
+                              <div>{errors.phone}</div>
                             )}
                           </div>
                         </div>

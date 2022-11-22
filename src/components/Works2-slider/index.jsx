@@ -35,14 +35,14 @@ const Works2Slider = ({ subBG }) => {
         <div className="container-fluid mt-100">
           <div className="sec-head custom-font text-center">
             <h6 className="wow fadeIn" data-wow-delay=".5s">
-              Portfolio
+            이제 행사를 오프라인에서만 진행하던 시대는 끝났습니다.
             </h6>
             <Split>
               <h3 className="wow words chars splitting" data-splitting>
-                Our Works.
+              Various Templates.
               </h3>
             </Split>
-            <span className="tbg">Portfolio</span>
+            <span className="tbg">Various Templates</span>
           </div>
           <div className="row">
             <div className="col-lg-12 no-padding">
@@ -104,27 +104,16 @@ const Works2Slider = ({ subBG }) => {
                           <div
                             className="item-img bg-img wow imago"
                             style={{
-                              backgroundImage: "url(/img/portfolio/curs/1.jpg)",
+                              backgroundImage: "url(/img/dark4/variousTemplates1.jpg)",
                             }}
                           ></div>
                           <div className="cont bgbox">
                             <h6>
-                              <Link href="/works2/works2-dark">
-                                art &amp; illustration
-                              </Link>
+                              Additional Features
                             </h6>
                             <h4>
-                              <Link href="/project-details/project-details-dark">
-                                <a>Innovation and Crafts.</a>
-                              </Link>
+                                실시간 상호작용
                             </h4>
-                            <Link href="/project-details2/project-details2-dark">
-                              <a>
-                                <span className="icon">
-                                  <i className="fas fa-plus"></i>
-                                </span>
-                              </a>
-                            </Link>
                           </div>
                         </div>
                       </SwiperSlide>
@@ -136,27 +125,16 @@ const Works2Slider = ({ subBG }) => {
                           <div
                             className="item-img bg-img wow imago"
                             style={{
-                              backgroundImage: "url(/img/portfolio/curs/2.jpg)",
+                              backgroundImage: "url(/img/dark4/variousTemplates2.jpg)",
                             }}
                           ></div>
                           <div className="cont bgbox">
                             <h6>
-                              <Link href="/works2/works2-dark">
-                                art &amp; illustration
-                              </Link>
+                              Additional Features
                             </h6>
                             <h4>
-                              <Link href="/project-details/project-details-dark">
-                                <a>Inspiring new space.</a>
-                              </Link>
+                                익숙한 조작
                             </h4>
-                            <Link href="/project-details2/project-details2-dark">
-                              <a>
-                                <span className="icon">
-                                  <i className="fas fa-plus"></i>
-                                </span>
-                              </a>
-                            </Link>
                           </div>
                         </div>
                       </SwiperSlide>
@@ -168,27 +146,16 @@ const Works2Slider = ({ subBG }) => {
                           <div
                             className="item-img bg-img wow imago"
                             style={{
-                              backgroundImage: "url(/img/portfolio/curs/3.jpg)",
+                              backgroundImage: "url(/img/dark4/variousTemplates3.jpg)",
                             }}
                           ></div>
                           <div className="cont bgbox">
                             <h6>
-                              <Link href="/works2/works2-dark">
-                                art &amp; illustration
-                              </Link>
+                              Additional Features
                             </h6>
                             <h4>
-                              <Link href="/project-details/project-details-dark">
-                                <a>Natural plus modern.</a>
-                              </Link>
+                                목적지향적인 기능
                             </h4>
-                            <Link href="/project-details2/project-details2-dark">
-                              <a>
-                                <span className="icon">
-                                  <i className="fas fa-plus"></i>
-                                </span>
-                              </a>
-                            </Link>
                           </div>
                         </div>
                       </SwiperSlide>
@@ -200,27 +167,16 @@ const Works2Slider = ({ subBG }) => {
                           <div
                             className="item-img bg-img wow imago"
                             style={{
-                              backgroundImage: "url(/img/portfolio/curs/4.jpg)",
+                              backgroundImage: "url(/img/dark4/variousTemplates4.jpg)",
                             }}
                           ></div>
                           <div className="cont bgbox">
                             <h6>
-                              <Link href="/works2/works2-dark">
-                                art &amp; illustration
-                              </Link>
+                              Additional Features
                             </h6>
                             <h4>
-                              <Link href="/project-details/project-details-dark">
-                                <a>Innovation and Crafts.</a>
-                              </Link>
+                                라이브 커머스
                             </h4>
-                            <Link href="/project-details2/project-details2-dark">
-                              <a>
-                                <span className="icon">
-                                  <i className="fas fa-plus"></i>
-                                </span>
-                              </a>
-                            </Link>
                           </div>
                         </div>
                       </SwiperSlide>
@@ -232,27 +188,16 @@ const Works2Slider = ({ subBG }) => {
                           <div
                             className="item-img bg-img wow imago"
                             style={{
-                              backgroundImage: "url(/img/portfolio/curs/5.jpg)",
+                              backgroundImage: "url(/img/dark4/variousTemplates5.jpg)",
                             }}
                           ></div>
                           <div className="cont bgbox">
                             <h6>
-                              <Link href="/works2/works2-dark">
-                                art &amp; illustration
-                              </Link>
+                            Exhibition & Booth
                             </h6>
                             <h4>
-                              <Link href="/project-details/project-details-dark">
-                                <a>Inspiring new space.</a>
-                              </Link>
+                            목적과 규모에 맞는 홀과 부스
                             </h4>
-                            <Link href="/project-details2/project-details2-dark">
-                              <a>
-                                <span className="icon">
-                                  <i className="fas fa-plus"></i>
-                                </span>
-                              </a>
-                            </Link>
                           </div>
                         </div>
                       </SwiperSlide>

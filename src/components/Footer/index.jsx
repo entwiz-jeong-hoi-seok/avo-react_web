@@ -28,88 +28,32 @@ const Footer = ({ noSubBG }) => {
               <div className="con-info custom-font">
                 <ul>
                   <li>
-                    <span>Email : </span> Avo_support@website.com
-                  </li>
-                  <li>
-                    <span>Address : </span> A32 , Ave 15th Street, Door 211, San
-                    Franciso, USA 32490.
-                  </li>
-                  <li>
-                    <span>Phone : </span> (+1) 2345 678 44 88
+                    <span>Address : </span> 서울특별시 금천구 가산디지털1로 225, 
+                    1016호,1017호(가산동, 에이스 가산 포휴)
                   </li>
                 </ul>
-              </div>
-              <div className="social-icon">
-                <h6 className="custom-font stit simple-btn">Follow Us</h6>
-                <div className="social">
-                  <a href="#0" className="icon">
-                    <i className="fab fa-facebook-f"></i>
-                  </a>
-                  <a href="#0" className="icon">
-                    <i className="fab fa-twitter"></i>
-                  </a>
-                  <a href="#0" className="icon">
-                    <i className="fab fa-pinterest"></i>
-                  </a>
-                  <a href="#0" className="icon">
-                    <i className="fab fa-behance"></i>
-                  </a>
-                </div>
               </div>
             </div>
           </div>
           <div className="col-lg-5 offset-lg-2">
             <div className="subscribe mb-50">
-              <h6 className="custom-font stit simple-btn">Newslatter</h6>
-              <p>Sign up for subscribe out newsletter!</p>
-              <Formik
-                initialValues={{
-                  subscribe: "",
-                }}
-                onSubmit={async (values) => {
-                  await sendEmail(500);
-                  alert(JSON.stringify(values, null, 2));
-                  // Reset the values
-                  values.subscribe = "";
-                }}
-              >
-                {({ errors, touched }) => (
-                  <Form>
-                    <div className="form-group custom-font">
-                      <Field
-                        validate={validateEmail}
-                        type="email"
-                        name="subscribe"
-                        placeholder="Your Email"
-                      />
-                      {errors.email && touched.email && (
-                        <div>{errors.email}</div>
-                      )}
-                      <button className="cursor-pointer">Subscribe</button>
-                    </div>
-                  </Form>
-                )}
-              </Formik>
-            </div>
-            <div className="insta">
-              <h6 className="custom-font stit simple-btn">Instagram Post</h6>
-              <div className="insta-gallary">
-                <a href="#0">
-                  <img src="/img/insta/1.jpg" alt="" />
-                </a>
-                <a href="#0">
-                  <img src="/img/insta/2.jpg" alt="" />
-                </a>
-                <a href="#0">
-                  <img src="/img/insta/3.jpg" alt="" />
-                </a>
+              <h6 className="custom-font stit simple-btn">CUSTOMER CENTER</h6>
+              <div className="con-info custom-font">
+                <ul>
+                  <li>
+                    <span>Email : </span> admin@entwiz.com
+                  </li>
+                  <li>
+                  <span>Phone : </span> 1666-7926
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
         <div className="copyrights text-center">
           <p>
-            © 2022, Avo Template. Made with passion by <a href="#0">ThemesCamp</a>.
+          COPYRIGHT @ 2022 <a href="#0">ENTWIZ</a> CORP. ALL RIGHTS RESERVED.
           </p>
         </div>
       </div>

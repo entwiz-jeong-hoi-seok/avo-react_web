@@ -37,7 +37,7 @@ const IntroWithSlider1 = ({ sliderRef }) => {
           <Swiper
             speed={1000}
             autoplay={{
-              delay: 1000,
+              delay: 5000,
               disableOnInteraction: true,
             }}
             parallax={true}
@@ -85,7 +85,7 @@ const IntroWithSlider1 = ({ sliderRef }) => {
               <SwiperSlide key={slide.id} className="swiper-slide">
                 <div
                   className="bg-img valign"
-                  style={{ backgroundImage: `url(${slide.image})` }}
+                  style={{ backgroundImage: `url(${slide.image})`}}
                   data-overlay-dark="6"
                 >
                   <div className="container">
@@ -104,12 +104,14 @@ const IntroWithSlider1 = ({ sliderRef }) => {
                               )}
                             </h1>
                           </Split>
-                          {slide?.content && <p>{slide.content}</p>}
-                          <Link href="/about/about-dark">
+                          {
+                            typeof slide.content === 'object' && <p>{slide.content.first}<br/>{slide.content.second}</p>
+                          }
+                          {/* <Link href="/about/about-dark">
                             <a className="btn-curve btn-lit mt-30">
                               <span>Look More</span>
                             </a>
-                          </Link>
+                          </Link> */}
                         </div>
                       </div>
                     </div>
@@ -138,7 +140,7 @@ const IntroWithSlider1 = ({ sliderRef }) => {
           className="swiper-pagination top botm custom-font"
         ></div>
 
-        <div className="social-icon">
+        {/* <div className="social-icon">
           <a href="#0">
             <i className="fab fa-facebook-f"></i>
           </a>
@@ -151,7 +153,7 @@ const IntroWithSlider1 = ({ sliderRef }) => {
           <a href="#0">
             <i className="fab fa-pinterest-p"></i>
           </a>
-        </div>
+        </div> */}
       </div>
     </header>
   );

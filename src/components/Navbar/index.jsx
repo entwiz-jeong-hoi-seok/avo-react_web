@@ -10,9 +10,9 @@ import {
 } from "../../common/navbar";
 
 const Navbar = ({ lr, nr, theme }) => {
-  React.useEffect(() => {
-    handleSearch();
-  }, []);
+  // React.useEffect(() => {
+  //   handleSearch();
+  // }, []);
   return (
     <nav
       ref={nr}
@@ -52,7 +52,7 @@ const Navbar = ({ lr, nr, theme }) => {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item dropdown" onClick={handleDropdown}>
+            {/* <li className="nav-item dropdown" onClick={handleDropdown}>
               <span
                 className="nav-link dropdown-toggle"
                 data-toggle="dropdown"
@@ -80,7 +80,6 @@ const Navbar = ({ lr, nr, theme }) => {
                 </Link>
               </div>
             </li>
-
             <li className="nav-item dropdown" onClick={handleDropdown}>
               <span
                 className="nav-link dropdown-toggle"
@@ -89,7 +88,7 @@ const Navbar = ({ lr, nr, theme }) => {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Showcases
+                About
               </span>
               <div className="dropdown-menu">
                 <Link href="/showcase/showcase-dark">
@@ -111,7 +110,7 @@ const Navbar = ({ lr, nr, theme }) => {
             </li>
             <li className="nav-item">
               <Link href="/about/about-dark">
-                <a className="nav-link">About</a>
+                <a className="nav-link">Business</a>
               </Link>
             </li>
             <li className="nav-item dropdown" onClick={handleDropdown}>
@@ -122,7 +121,7 @@ const Navbar = ({ lr, nr, theme }) => {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                portfolio
+                Solution
               </span>
               <div className="dropdown-menu">
                 <Link href="/works/works-dark">
@@ -138,6 +137,26 @@ const Navbar = ({ lr, nr, theme }) => {
                   <a className="dropdown-item">Pinterest List</a>
                 </Link>
               </div>
+            </li> */}
+            <li className="nav-item">
+              <Link href="/contact/contact-dark">
+                <a className="nav-link">Home</a>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/contact/contact-dark">
+                <a className="nav-link">About</a>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/contact/contact-dark">
+                <a className="nav-link">Business</a>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/contact/contact-dark">
+                <a className="nav-link">Solution</a>
+              </Link>
             </li>
             <li className="nav-item">
               <Link href="/contact/contact-dark">
@@ -145,7 +164,7 @@ const Navbar = ({ lr, nr, theme }) => {
               </Link>
             </li>
           </ul>
-          <div className="search">
+          {/* <div className="search">
             <span className="icon pe-7s-search cursor-pointer"></span>
             <div className="search-form text-center custom-font">
               <Formik
@@ -166,7 +185,7 @@ const Navbar = ({ lr, nr, theme }) => {
               </Formik>
               <span className="close pe-7s-close cursor-pointer"></span>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </nav>

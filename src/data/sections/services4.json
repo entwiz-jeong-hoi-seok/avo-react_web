@@ -1,20 +1,26 @@
 [
     {
         "id": 1,
-        "title": "Digital Marketing",
-        "icon": "pe-7s-gleam",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+        "title": "소프트웨어 주문 제작",
+        "icon": "/img/dark4/businessIcon1.png",
+        "content": "다양한 요구사항과 환경에 맞춰 개발할 수 있도록 모든 분야의 전문 소프트웨어 개발자가 상주합니다."
     },
     {
       "id": 2,
-      "title": "Web & App Development",
-      "icon": "pe-7s-phone",
-      "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+      "title": "시스템 통합 및 데이터 마이그레이션",
+      "icon": "/img/dark4/businessIcon2.png",
+      "content": "축적된 기술과 노하우로 손쉬운 관리의 일원화, 수익의 시너지, 오래된 시스템의 최신화 등을 가능하게 합니다."
     },
     {
       "id": 3,
-      "title": "Graphic Design",
-      "icon": "pe-7s-magic-wand",
-      "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+      "title": "웹/앱 통합 어플리케이션 제작",
+      "icon": "/img/dark4/businessIcon3.png",
+      "content": "한 번의 개발로 최신 인프라와 다양한 디바이스에 최적화된 웹 사이트와 어플리케이션을 개발합니다."
+    },
+    {
+      "id": 4,
+      "title": "시스템/서비스 유지보수 및 컨설팅",
+      "icon": "/img/dark4/businessIcon4.png",
+      "content": "다년간의 노하우로 서버 이전, 클라우드 도입, 패킷 최적화 등을 제안하여개발 및 유지비 절감이 가능합니다."
     }
 ]
