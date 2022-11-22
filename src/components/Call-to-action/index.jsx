@@ -10,33 +10,20 @@ const CallToAction = ({ img, theme, subBG }) => {
     >
       <div className="container">
         <div className="row">
-          <div className="col-md-8 col-lg-9">
+          <div className="col-md-12 col-lg-12">
             <div className="content sm-mb30">
               <Split>
                 <h6 className="wow words chars splitting" data-splitting>
-                  Let&apos;s Talk
+                우리의 가치와 목표를 추구하기 위해 새로운 시도와 변화를 멈추지 않습니다.
                 </h6>
                 <h2
                   className="wow words custom-font chars splitting"
                   data-splitting
                 >
-                  about your <b>next project</b>.
+                  Make expert yours <b>엔트위즈</b>.
                 </h2>
               </Split>
             </div>
-          </div>
-
-          <div className="col-md-4 col-lg-3 valign">
-            <Link href="/contact/contact-dark">
-              <a
-                className={`btn-curve ${
-                  theme == "light" ? "btn-blc" : "btn-lit"
-                } wow fadeInUp`}
-                data-wow-delay=".5s"
-              >
-                <span>Get In Touch</span>
-              </a>
-            </Link>
           </div>
         </div>
       </div>

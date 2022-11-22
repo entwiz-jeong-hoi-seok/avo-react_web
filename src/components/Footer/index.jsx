@@ -37,42 +37,23 @@ const Footer = ({ noSubBG }) => {
           </div>
           <div className="col-lg-5 offset-lg-2">
             <div className="subscribe mb-50">
-              <h6 className="custom-font stit simple-btn">Newslatter</h6>
-              <p>Sign up for subscribe out newsletter!</p>
-              <Formik
-                initialValues={{
-                  subscribe: "",
-                }}
-                onSubmit={async (values) => {
-                  await sendEmail(500);
-                  alert(JSON.stringify(values, null, 2));
-                  // Reset the values
-                  values.subscribe = "";
-                }}
-              >
-                {({ errors, touched }) => (
-                  <Form>
-                    <div className="form-group custom-font">
-                      <Field
-                        validate={validateEmail}
-                        type="email"
-                        name="subscribe"
-                        placeholder="Your Email"
-                      />
-                      {errors.email && touched.email && (
-                        <div>{errors.email}</div>
-                      )}
-                      <button className="cursor-pointer">Subscribe</button>
-                    </div>
-                  </Form>
-                )}
-              </Formik>
+              <h6 className="custom-font stit simple-btn">CUSTOMER CENTER</h6>
+              <div className="con-info custom-font">
+                <ul>
+                  <li>
+                    <span>Email : </span> admin@entwiz.com
+                  </li>
+                  <li>
+                  <span>Phone : </span> 1666-7926
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
         <div className="copyrights text-center">
           <p>
-            © 2022, Avo Template. Made with passion by <a href="#0">ThemesCamp</a>.
+          COPYRIGHT @ 2022 <a href="#0">ENTWIZ</a> CORP. ALL RIGHTS RESERVED.
           </p>
         </div>
       </div>

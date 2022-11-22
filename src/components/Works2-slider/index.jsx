@@ -109,14 +109,10 @@ const Works2Slider = ({ subBG }) => {
                           ></div>
                           <div className="cont bgbox">
                             <h6>
-                              <Link href="/works2/works2-dark">
                               Additional Features
-                              </Link>
                             </h6>
                             <h4>
-                              <Link href="/project-details/project-details-dark">
-                                <a>실시간 상호작용</a>
-                              </Link>
+                                실시간 상호작용
                             </h4>
                           </div>
                         </div>
@@ -134,14 +130,10 @@ const Works2Slider = ({ subBG }) => {
                           ></div>
                           <div className="cont bgbox">
                             <h6>
-                              <Link href="/works2/works2-dark">
                               Additional Features
-                              </Link>
                             </h6>
                             <h4>
-                              <Link href="/project-details/project-details-dark">
-                                <a>익숙한 조작</a>
-                              </Link>
+                                익숙한 조작
                             </h4>
                           </div>
                         </div>
@@ -159,14 +151,10 @@ const Works2Slider = ({ subBG }) => {
                           ></div>
                           <div className="cont bgbox">
                             <h6>
-                              <Link href="/works2/works2-dark">
                               Additional Features
-                              </Link>
                             </h6>
                             <h4>
-                              <Link href="/project-details/project-details-dark">
-                                <a>목적지향적인 기능</a>
-                              </Link>
+                                목적지향적인 기능
                             </h4>
                           </div>
                         </div>
@@ -184,14 +172,31 @@ const Works2Slider = ({ subBG }) => {
                           ></div>
                           <div className="cont bgbox">
                             <h6>
-                              <Link href="/works2/works2-dark">
-                                art &amp; illustration
-                              </Link>
+                              Additional Features
                             </h6>
                             <h4>
-                              <Link href="/project-details/project-details-dark">
-                                <a>라이브 커머스</a>
-                              </Link>
+                                라이브 커머스
+                            </h4>
+                          </div>
+                        </div>
+                      </SwiperSlide>
+                      <SwiperSlide className="swiper-slide">
+                        <div
+                          className="content wow fadeInUp"
+                          data-wow-delay=".3s"
+                        >
+                          <div
+                            className="item-img bg-img wow imago"
+                            style={{
+                              backgroundImage: "url(/img/dark4/variousTemplates5.jpg)",
+                            }}
+                          ></div>
+                          <div className="cont bgbox">
+                            <h6>
+                            Exhibition & Booth
+                            </h6>
+                            <h4>
+                            목적과 규모에 맞는 홀과 부스
                             </h4>
                           </div>
                         </div>

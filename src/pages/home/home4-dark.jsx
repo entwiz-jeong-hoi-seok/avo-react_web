@@ -10,6 +10,7 @@ import Services4 from "../../components/Services4";
 import TeamWithSkills from "../../components/Team-with-skills";
 import Testimonials1 from "../../components/Testimonials1";
 import Works2Slider from "../../components/Works2-slider";
+import CallToAction from "../../components/Call-to-action";
 import DarkTheme from "../../layouts/Dark";
 
 const Homepage4 = () => {
@@ -52,8 +53,9 @@ const Homepage4 = () => {
         <PortfolioCustomColumn column={2} filterPosition="left" />
         <Testimonials1 withBG imgSrc="/img/pattern.png" />
         <Works2Slider subBG />
-        <TeamWithSkills />
-        <BlogsThreeColumn2 subBG />
+        {/* <TeamWithSkills /> */}
+        {/* <BlogsThreeColumn2 subBG /> */}
+        <CallToAction subBG />
         <ContactSection />
         <Footer />
       </div>

@@ -152,7 +152,7 @@ a, span {
   max-width: 1200px; }
 
 .custom-font {
-  font-family: 'Barlow Condensed', sans-serif; }
+  font-family: 'Pretendard', sans-serif; }
 
 /* ====================== [ End Typography  ] ====================== */
 /* ====================== [ Start Helper Classes  ] ====================== */
@@ -1133,10 +1133,9 @@ body {
     text-transform: uppercase;
     letter-spacing: 1.5px;
     line-height: 3.33;
-    margin-bottom: 5px; }
+    margin-bottom: 40px; }
   .sec-head h3 {
     font-size: 80px;
-    font-family: 'Pretendard';
     font-weight: bold;
     text-transform: uppercase;
     line-height: 0.63;
@@ -1144,12 +1143,12 @@ body {
   .sec-head .tbg {
     position: absolute;
     bottom: 0;
-    left: 0;
-    width: 100%;
+    left: -30%;
+    width: 100vw;
     text-align: center;
     font-size: 190px;
     font-weight: bold;
-    line-height: 0.26;
+    line-height: 1;
     color: transparent;
     -webkit-text-stroke: 1px rgba(255, 255, 255, 0.1);
     opacity: .3; }
@@ -1162,6 +1161,7 @@ body {
   font-size: 16px;
   margin-top : 24px;
   line-height: 2;
+  color: #fff;
 }
 
 
@@ -3354,7 +3354,9 @@ header.simpl {
       margin-top: 30px;
       text-align: center; }
       .portfolio .gallery .items .cont h6 {
-        font-weight: 600;
+        font-size: 14px;
+        line-height: 1.43;
+        letter-spacing: 1.68px;
         margin-bottom: 5px; }
       .portfolio .gallery .items .cont span {
         color: #999;
@@ -3467,6 +3469,13 @@ header.simpl {
         -ms-transform: scale(1);
         transform: scale(1);
         opacity: 1; }
+
+.contContent {
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 1.68px;
+  font-weight: normal;
+}
 
 .work-carousel .swiper-slide {
   padding: 0px 15px; }
@@ -3914,20 +3923,27 @@ header.simpl {
   margin: 0 15px; }
   .testimonials .item p {
     font-size: 22px;
-    font-weight: 300; }
+    font-weight: 300; 
+    word-break: keep-all;
+  }
   .testimonials .item .info {
     margin-top: 30px; }
     .testimonials .item .info .img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       width: 70px;
       height: 70px;
+      background-color: #d31e66;
       border-radius: 50%;
       overflow: hidden;
       margin: 0 auto 20px; }
     .testimonials .item .info .author-name {
       text-transform: uppercase;
-      letter-spacing: 2px;
-      font-weight: 500;
+      font-size : 18px;
+      font-weight: bold;
       margin-bottom: 5px;
+      line-height: 2.33;
       color: #d31e66; }
     .testimonials .item .info .author-details {
       font-size: 13px; }
@@ -3945,6 +3961,12 @@ header.simpl {
   .testimonials .slick-dots li button {
     display: none; }
 
+.meataxfairBox {
+  position: relative;
+  width : 34px;
+  height: 34px;
+  margin: 0 auto;
+}
 .testimonials .arrows .next, .testimonials .arrows .prev {
   position: absolute;
   right: -50px;
@@ -4573,17 +4595,16 @@ header.simpl {
 /* ====================== [ Start Call To Action  ] ====================== */
 .call-action .content h6 {
   color: #d31e66;
-  font-size: 13px;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 4px;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  line-height: 3.33;
   margin-bottom: 10px; }
   .call-action .content h6 span {
     color: #d31e66; }
 
 .call-action .content h2 {
   font-weight: 700;
-  font-size: 4vw;
+  font-size: 77px;
   line-height: 1.2;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -5243,6 +5264,9 @@ header.simpl {
     letter-spacing: 1px; }
   .sec-head h3 {
     font-size: 35px; }
+  .sec-head .tbg {
+    display: none;
+  }
   .about .blc-img .skills-circle {
     display: block;
     padding-bottom: 30px !important; }

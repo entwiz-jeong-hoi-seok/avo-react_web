@@ -16,15 +16,15 @@
   {
     "id": 3,
     "image": "/img/dark4/solution4.jpg",
-    "title": "미디어 솔루션",
-    "tags": ["Wowza 엔지니어링, Kurento 엔지니어링 기술을 사용. VOD, OTT, 화상 회의, 공연 중계 제공"],
-    "filterCategory": ["brand"]
+    "title": "메타버스형 온라인 가상전시 솔루션",
+    "tags": ["별도 설치 없이 웹 브라우저에서 온라인 컨퍼런스 등을 개최할 수 있는 메타버스 솔루션 제공"],
+    "filterCategory": ["graphic"]
   },
   {
     "id": 4,
     "image": "/img/dark4/solution3.jpg",
-    "title": "메타버스형 온라인 가상전시 솔루션",
-    "tags": ["별도 설치 없이 웹 브라우저에서 온라인 컨퍼런스 등을 개최할 수 있는 메타버스 솔루션 제공"],
-    "filterCategory": ["graphic"]
+    "title": "미디어 솔루션",
+    "tags": ["Wowza 엔지니어링, Kurento 엔지니어링 기술을 사용. VOD, OTT, 화상 회의, 공연 중계 제공"],
+    "filterCategory": ["brand"]
   }
 ]

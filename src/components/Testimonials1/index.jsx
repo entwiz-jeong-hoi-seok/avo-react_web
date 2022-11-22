@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import removeOverlay from "../../common/removeOverlay";
 import parallaxie from "../../common/parallaxie";
+import Image from "next/image";
 
 class Testimonials1 extends React.Component {
   constructor(props) {
@@ -89,9 +90,11 @@ class Testimonials1 extends React.Component {
                         {this.props.subBgLftstl ? (
                           <>
                             <div className="lxleft">
-                              <div className="img">
-                                <img src="/img/clients/1.jpg" alt="" />
+                            <div className="img">
+                              <div className ="meataxfairBox">
+                              <Image src={"/img/dark4/meataxfair1.png"} alt="icon" layout='fill' objectFit="contain" />
                               </div>
+                            </div>
                             </div>
                             <div className="fxright">
                               <h6 className="author-name custom-font">
@@ -102,7 +105,9 @@ class Testimonials1 extends React.Component {
                         ) : (
                           <>
                             <div className="img">
-                              <img src="/img/clients/1.jpg" alt="" />
+                              <div className ="meataxfairBox">
+                              <Image src={"/img/dark4/meataxfair1.png"} alt="icon" layout='fill' objectFit="contain" />
+                              </div>
                             </div>
                             <h6 className="author-name custom-font">
                             접근성에 최적화
@@ -123,9 +128,11 @@ class Testimonials1 extends React.Component {
                         {this.props.subBgLftstl ? (
                           <>
                             <div className="lxleft">
-                              <div className="img">
-                                <img src="/img/clients/1.jpg" alt="" />
+                            <div className="img">
+                              <div className ="meataxfairBox">
+                              <Image src={"/img/dark4/meataxfair2.png"} alt="icon" layout='fill' objectFit="contain" />
                               </div>
+                            </div>
                             </div>
                             <div className="fxright">
                               <h6 className="author-name custom-font">
@@ -136,7 +143,9 @@ class Testimonials1 extends React.Component {
                         ) : (
                           <>
                             <div className="img">
-                              <img src="/img/clients/1.jpg" alt="" />
+                              <div className ="meataxfairBox">
+                              <Image src={"/img/dark4/meataxfair2.png"} alt="icon" layout='fill' objectFit="contain" />
+                              </div>
                             </div>
                             <h6 className="author-name custom-font">
                             고도화된 통계기능
@@ -157,9 +166,11 @@ class Testimonials1 extends React.Component {
                         {this.props.subBgLftstl ? (
                           <>
                             <div className="lxleft">
-                              <div className="img">
-                                <img src="/img/clients/1.jpg" alt="" />
+                            <div className="img">
+                              <div className ="meataxfairBox">
+                              <Image src={"/img/dark4/meataxfair3.png"} alt="icon" layout='fill' objectFit="contain" />
                               </div>
+                            </div>
                             </div>
                             <div className="fxright">
                               <h6 className="author-name custom-font">
@@ -170,7 +181,9 @@ class Testimonials1 extends React.Component {
                         ) : (
                           <>
                             <div className="img">
-                              <img src="/img/clients/1.jpg" alt="" />
+                              <div className ="meataxfairBox">
+                              <Image src={"/img/dark4/meataxfair3.png"} alt="icon" layout='fill' objectFit="contain" />
+                              </div>
                             </div>
                             <h6 className="author-name custom-font">
                             가상부스 Editor
@@ -191,9 +204,11 @@ class Testimonials1 extends React.Component {
                         {this.props.subBgLftstl ? (
                           <>
                             <div className="lxleft">
-                              <div className="img">
-                                <img src="/img/clients/1.jpg" alt="" />
+                            <div className="img">
+                              <div className ="meataxfairBox">
+                              <Image src={"/img/dark4/meataxfair4.png"} alt="icon" layout='fill' objectFit="contain" />
                               </div>
+                            </div>
                             </div>
                             <div className="fxright">
                               <h6 className="author-name custom-font">
@@ -204,7 +219,9 @@ class Testimonials1 extends React.Component {
                         ) : (
                           <>
                             <div className="img">
-                              <img src="/img/clients/1.jpg" alt="" />
+                              <div className ="meataxfairBox">
+                              <Image src={"/img/dark4/meataxfair4.png"} alt="icon" layout='fill' objectFit="contain" />
+                              </div>
                             </div>
                             <h6 className="author-name custom-font">
                             최적의 현장감 전달
@@ -225,9 +242,11 @@ class Testimonials1 extends React.Component {
                         {this.props.subBgLftstl ? (
                           <>
                             <div className="lxleft">
-                              <div className="img">
-                                <img src="/img/clients/1.jpg" alt="" />
+                            <div className="img">
+                              <div className ="meataxfairBox">
+                              <Image src={"/img/dark4/meataxfair5.png"} alt="icon" layout='fill' objectFit="contain" />
                               </div>
+                            </div>
                             </div>
                             <div className="fxright">
                               <h6 className="author-name custom-font">
@@ -238,7 +257,9 @@ class Testimonials1 extends React.Component {
                         ) : (
                           <>
                             <div className="img">
-                              <img src="/img/clients/1.jpg" alt="" />
+                              <div className ="meataxfairBox">
+                              <Image src={"/img/dark4/meataxfair5.png"} alt="icon" layout='fill' objectFit="contain" />
+                              </div>
                             </div>
                             <h6 className="author-name custom-font">
                             홍보를 위한 다양한 기능
@@ -251,7 +272,7 @@ class Testimonials1 extends React.Component {
                 </div>
                 <div className="item">
                   <p>
-                  라이브 커머스 채널을 사용하여 실시간 현장 생중계와 채팅 및 상품 판매까지 가능합니다.
+                  라이브 커머스 채널을 사용하여 <br/>실시간 현장 생중계와 채팅 및 상품 판매까지 가능합니다.
                   </p>
                   <div className="info">
                     <div className="cont">
@@ -259,9 +280,11 @@ class Testimonials1 extends React.Component {
                         {this.props.subBgLftstl ? (
                           <>
                             <div className="lxleft">
-                              <div className="img">
-                                <img src="/img/clients/1.jpg" alt="" />
+                            <div className="img">
+                              <div className ="meataxfairBox">
+                              <Image src={"/img/dark4/meataxfair6.png"} alt="icon" layout='fill' objectFit="contain" />
                               </div>
+                            </div>
                             </div>
                             <div className="fxright">
                               <h6 className="author-name custom-font">
@@ -272,7 +295,9 @@ class Testimonials1 extends React.Component {
                         ) : (
                           <>
                             <div className="img">
-                              <img src="/img/clients/1.jpg" alt="" />
+                              <div className ="meataxfairBox">
+                              <Image src={"/img/dark4/meataxfair6.png"} alt="icon" layout='fill' objectFit="contain" />
+                              </div>
                             </div>
                             <h6 className="author-name custom-font">
                             부가적인 수익 창출
