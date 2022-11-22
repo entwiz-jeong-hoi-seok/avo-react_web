@@ -28,13 +28,13 @@ const PortfolioCustomColumn = ({
             <h6 className="wow fadeIn" data-wow-delay=".5s">
             우리는 120%의 결과물을 위해 노력합니다.
             </h6>
-            <Split>
+            {/* <Split> */}
               <h3 className="wow words chars splitting" data-splitting>
               Solution S/W.
               </h3>
               <p className="solutionText"> 문제를 해결하기 위한 올바른 전략 수립부터 다양한 관점을 포용하는 투명한 협업 프로세스 정립, 변화에 유연하게 대응하고 재사용이 가능한 디자인 시스템을 구축합니다. 이를 
 바탕으로 쉽고 빠르게 적용하고 테스트하며 확장해나갈 수 있습니다.</p>
-            </Split>
+            {/* </Split> */}
             <span className="tbg text-right">Solution S/W</span>
           </div>
         </div>

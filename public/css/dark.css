@@ -1128,13 +1128,15 @@ body {
   margin: 0 auto 80px; }
   .sec-head h6 {
     color: #d31e66;
-    font-weight: 300;
-    font-size: 17px;
+    font-weight: bold;
+    font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
+    line-height: 3.33;
     margin-bottom: 5px; }
   .sec-head h3 {
     font-size: 80px;
+    font-family: 'Pretendard';
     font-weight: bold;
     text-transform: uppercase;
     line-height: 0.63;
