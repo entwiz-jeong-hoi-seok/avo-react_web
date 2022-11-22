@@ -1,6 +1,7 @@
 import React from "react";
 import Split from "../Split";
 import services4Data from "../../data/sections/services4.json";
+import Image from "next/image";
 
 const Services4 = ({ withBG, withPadding, halfBG, withOutTitle }) => {
   return (
@@ -25,7 +26,7 @@ const Services4 = ({ withBG, withPadding, halfBG, withOutTitle }) => {
         )}
         <div className="row">
           {services4Data.map((item, index) => (
-            <div className="col-lg-4" key={item.id}>
+            <div className="col-lg-3" key={item.id}>
               <div
                 className={`item ${
                   index != services4Data.length - 1 ? "md-mb50" : ""
@@ -34,7 +35,9 @@ const Services4 = ({ withBG, withPadding, halfBG, withOutTitle }) => {
                   item.id == 1 ? ".5s" : item.id == 2 ? ".3s" : ".8s"
                 }
               >
-                <span className={`icon ${item.icon}`}></span>
+                <div className="businessIconBox">
+                <Image className="businessIcon" src={item.icon} alt="icon" layout='fill' objectFit="contain" />
+                </div>
                 <h6>{item.title}</h6>
                 <p>{item.content}</p>
               </div>
