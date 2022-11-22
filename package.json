@@ -2,10 +2,10 @@
   "name": "avo2-react",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 10109",
     "build": "next build",
     "export": "next build && next export",
-    "start": "next start",
+    "start": "next start -p 10109",
     "lint": "next lint"
   },
   "dependencies": {
